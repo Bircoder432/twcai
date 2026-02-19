@@ -1,0 +1,28 @@
+[package]
+name = "twcai"
+version = "0.1.0"
+edition = "2024"
+authors = ["TWCai Contributors"]
+description = "Rust client library for Timeweb Cloud AI API"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/timeweb-cloud/twcai"
+keywords = ["timeweb", "ai", "api", "client", "openai"]
+categories = ["api-bindings", "asynchronous"]
+rust-version = "1.85"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json", "stream"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_urlencoded = "0.7"
+thiserror = "2.0"
+tokio = { version = "1.40", features = ["full"] }
+url = "2.5"
+
+[dev-dependencies]
+tokio-test = "0.4"
+mockito = "1.6"
+
+[lib]
+name = "twcai"
+path = "src/lib.rs"
