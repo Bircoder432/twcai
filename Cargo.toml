@@ -2,9 +2,9 @@
 name = "twcai"
 version = "0.1.0"
 edition = "2024"
-authors = ["TWCai Contributors"]
+authors = ["Vadim Storozhilov"]
 description = "Rust client library for Timeweb Cloud AI API"
-license = "MIT OR Apache-2.0"
+license = "MIT"
 repository = "https://github.com/timeweb-cloud/twcai"
 keywords = ["timeweb", "ai", "api", "client", "openai"]
 categories = ["api-bindings", "asynchronous"]
