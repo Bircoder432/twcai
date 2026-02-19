@@ -4,7 +4,6 @@ A Rust client library for the Timeweb Cloud AI API, providing OpenAI-compatible 
 
 ## Features
 
-- Rust 2024 Edition — Leverages native async traits and modern Rust features (requires Rust 1.85+)
 - OpenAI-Compatible — Drop-in replacement for OpenAI SDK with Timeweb Cloud endpoints
 - Multimodal Support — Text, image, and audio inputs through unified content interfaces
 - Type-Safe API — Comprehensive DTOs with serde serialization and strong typing
